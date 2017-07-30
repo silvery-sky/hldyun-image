@@ -8,6 +8,11 @@
 [![Packagist Status](https://img.shields.io/packagist/v/top-think/think-image.svg)](https://packagist.org/packages/topthink/think-image)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/top-think/think-image.svg)](https://packagist.org/packages/topthink/think-image)
 
+## 特别说明
+
+修改至topthink/think-image 扩展
+将发生错误时抛出异常，改为返回错误信息，然后调用时根据错误信息进行下一步处理，以免造成页面显示异常错误无法正常访问！！！
+ 
 ## 安装
 
 > composer require topthink/think-image
